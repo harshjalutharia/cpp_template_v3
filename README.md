@@ -21,6 +21,7 @@
 2. Use --recurse-submodules command when cloning the repo since it uses the googletest repository as a submodule.
 3. Go to the project's root folder. Type the following commands to build the project:
 ```sh
+mkdir build
 cd build
 cmake ..
 make
