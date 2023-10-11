@@ -17,8 +17,11 @@
 
 ### Instructions
 
-1. You need to have cmake, gdb, g++ and gnu toolkit installed.
-2. Use --recurse-submodules command when cloning the repo since it uses the googletest repository as a submodule.
+1. You need to have git, cmake, gdb, g++, make (gnu toolkit) installed.
+2. Don't download the code as a zip. Clone the repo and use "--recurse-submodules" when cloning since it uses the googletest repository as a submodule.
+```sh
+git clone --recurse-submodules https://github.com/harshjalutharia/cpp_template_v3.git
+```
 3. Go to the project's root folder. Type the following commands to build the project:
 ```sh
 mkdir build
